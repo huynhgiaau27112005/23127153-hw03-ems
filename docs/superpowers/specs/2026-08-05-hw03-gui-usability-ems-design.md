@@ -16,7 +16,7 @@ Produce a complete individual Moodle submission zip for HW03 (GUI & Usability on
 |---|---|
 | Scenario | **D** — User requests Support and Admin resolves it |
 | Screens | **D1** Create support request (category, content, image); **D2** My Requests list/detail + response; **D3** Admin Support Requests list (Pending/Resolved, search) |
-| SUT | https://promoter-starboard-prude.ngrok-free.dev/ |
+| SUT | https://prod-dev.ems-fitus.cloud/ |
 | User account | Own registration (user side of D1/D2) — do not share group account |
 | Admin account | `admin@gmail.com` / `Admin@123` (D3) |
 | Overlay (Task 3) | `23127153@clc.fitus.edu.vn` |

@@ -12,7 +12,7 @@
 
 - Student: `23127153` · Huỳnh Gia Âu · `hgau23@clc.fitus.edu.vn` · Nhóm 2
 - Scenario D only: screens **D1, D2, D3**
-- SUT: `https://promoter-starboard-prude.ngrok-free.dev/`
+- SUT: `https://prod-dev.ems-fitus.cloud/`
 - Admin: `admin@gmail.com` / `Admin@123`; user-side: register own account
 - Overlay: `23127153@clc.fitus.edu.vn`
 - Shared checklist source: `checklist.md` (do not redesign content)

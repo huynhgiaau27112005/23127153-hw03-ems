@@ -2,7 +2,8 @@
 
 **Student:** Huỳnh Gia Âu · MSSV `23127153` · `hgau23@clc.fitus.edu.vn` · Nhóm 2  
 **Scenario:** D — User requests Support and Admin resolves it  
-**Screens:** D1 (Create support request) · D2 (My Requests) · D3 (Admin Support Requests)
+**Screens:** D1 (Create support request) · D2 (My Requests) · D3 (Admin Support Requests)  
+**SUT:** https://prod-dev.ems-fitus.cloud/
 
 ## Package layout
 
