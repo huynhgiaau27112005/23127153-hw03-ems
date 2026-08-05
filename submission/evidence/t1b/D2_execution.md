@@ -13,9 +13,9 @@
 
 | Result | Count |
 |---|---:|
-| Passed | 24 |
-| Failed | 5 |
-| N/A | 11 |
+| Passed | 26 |
+| Failed | 4 |
+| N/A | 10 |
 | **Total** | **40** |
 
 ## Execution matrix
@@ -27,7 +27,7 @@
 | IA01-03 | IA-01 | Pass | List H1 “Support requests”; detail title uses issue subject | — |
 | IA01-04 | IA-01 | Pass | Pending badge + body text readable | — |
 | IA01-05 | IA-01 | Pass | Create request CTA / Back consistent with EMS patterns | — |
-| IA01-06 | IA-01 | Fail | List `document.title` VI (`Yêu cầu hỗ trợ`) while H1/UI chrome EN | `D2/IA01-06.png` |
+| IA01-06 | IA-01 | Fail | List `document.title` VI (`Yêu cầu hỗ trợ`) while H1 “Support requests” EN; overlay + `#97` row visible | `D2/IA01-06.png` |
 | IA01-07 | IA-01 | Pass | Empty list shows “No requests yet” + guidance (observed before seed) | — |
 | IA01-08 | IA-01 | Pass | List/detail load without broken layout | — |
 | IA01-09 | IA-01 | Pass | Desktop list/detail usable without overflow | — |
