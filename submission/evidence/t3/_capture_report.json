@@ -1,0 +1,265 @@
+{
+  "adminLogin": {
+    "url": "https://prod-dev.ems-fitus.cloud/dashboard",
+    "title": "Dashboard | HCMUS EMS",
+    "ok": true
+  },
+  "guest": {
+    "email": "hw03.t3.1785950037697@mailinator.com",
+    "url": "https://prod-dev.ems-fitus.cloud/dashboard",
+    "title": "Dashboard | HCMUS EMS",
+    "inputs": [
+      {
+        "type": "text",
+        "name": "dashboard-event-search-mobile"
+      },
+      {
+        "type": "text",
+        "name": "dashboard-event-search"
+      }
+    ]
+  },
+  "results": [
+    {
+      "cellId": "D3-C1",
+      "screen": "D3",
+      "cell": "C1",
+      "result": "Pass",
+      "notes": "local browser + device-metrics emulation (not a real device). Emulated Windows 11 / Chrome 128 / desktop @ 1440×900. Session: admin@gmail.com",
+      "screenshot": "submission/evidence/t3/D3/C1.png",
+      "finalUrl": "https://prod-dev.ems-fitus.cloud/dashboard/admin/complaints",
+      "title": "Support Request Management | HCMUS EMS",
+      "reached": true,
+      "overflow": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "cellId": "D3-C2",
+      "screen": "D3",
+      "cell": "C2",
+      "result": "Pass",
+      "notes": "local browser + device-metrics emulation (not a real device). Emulated macOS Sonoma 14 / Safari 17 / desktop @ 1440×900. Session: admin@gmail.com",
+      "screenshot": "submission/evidence/t3/D3/C2.png",
+      "finalUrl": "https://prod-dev.ems-fitus.cloud/dashboard/admin/complaints",
+      "title": "Support Request Management | HCMUS EMS",
+      "reached": true,
+      "overflow": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "cellId": "D3-C3",
+      "screen": "D3",
+      "cell": "C3",
+      "result": "Fail",
+      "notes": "local browser + device-metrics emulation (not a real device). Emulated Android 14 / Samsung Internet 26 / phone @ 412×915. Session: admin@gmail.com Horizontal overflow detected (scrollWidth=516 > clientWidth=412).",
+      "screenshot": "submission/evidence/t3/D3/C3.png",
+      "finalUrl": "https://prod-dev.ems-fitus.cloud/dashboard/admin/complaints",
+      "title": "Support Request Management | HCMUS EMS",
+      "reached": true,
+      "overflow": {
+        "scrollWidth": 516,
+        "clientWidth": 412,
+        "overflow": true
+      }
+    },
+    {
+      "cellId": "D3-C4",
+      "screen": "D3",
+      "cell": "C4",
+      "result": "Pass",
+      "notes": "local browser + device-metrics emulation (not a real device). Emulated Windows 11 / Edge 128 / tablet @ 1024×768. Session: admin@gmail.com",
+      "screenshot": "submission/evidence/t3/D3/C4.png",
+      "finalUrl": "https://prod-dev.ems-fitus.cloud/dashboard/admin/complaints",
+      "title": "Support Request Management | HCMUS EMS",
+      "reached": true,
+      "overflow": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "overflow": false
+      }
+    },
+    {
+      "cellId": "D3-C5",
+      "screen": "D3",
+      "cell": "C5",
+      "result": "Pass",
+      "notes": "local browser + device-metrics emulation (not a real device). Emulated macOS Sonoma 14 / Firefox 129 / tablet @ 820×1180. Session: admin@gmail.com",
+      "screenshot": "submission/evidence/t3/D3/C5.png",
+      "finalUrl": "https://prod-dev.ems-fitus.cloud/dashboard/admin/complaints",
+      "title": "Support Request Management | HCMUS EMS",
+      "reached": true,
+      "overflow": {
+        "scrollWidth": 820,
+        "clientWidth": 820,
+        "overflow": false
+      }
+    },
+    {
+      "cellId": "D1-C1",
+      "screen": "D1",
+      "cell": "C1",
+      "result": "Pass",
+      "notes": "local browser + device-metrics emulation (not a real device). Emulated Windows 11 / Chrome 128 / desktop @ 1440×900. Session: guest hw03.t3.1785950037697@mailinator.com",
+      "screenshot": "submission/evidence/t3/D1/C1.png",
+      "finalUrl": "https://prod-dev.ems-fitus.cloud/complaints/new",
+      "title": "Gửi yêu cầu hỗ trợ | HCMUS EMS",
+      "reached": true,
+      "overflow": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "cellId": "D1-C2",
+      "screen": "D1",
+      "cell": "C2",
+      "result": "Pass",
+      "notes": "local browser + device-metrics emulation (not a real device). Emulated macOS Sonoma 14 / Safari 17 / desktop @ 1440×900. Session: guest hw03.t3.1785950037697@mailinator.com",
+      "screenshot": "submission/evidence/t3/D1/C2.png",
+      "finalUrl": "https://prod-dev.ems-fitus.cloud/complaints/new",
+      "title": "Gửi yêu cầu hỗ trợ | HCMUS EMS",
+      "reached": true,
+      "overflow": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "cellId": "D1-C3",
+      "screen": "D1",
+      "cell": "C3",
+      "result": "Pass",
+      "notes": "local browser + device-metrics emulation (not a real device). Emulated Android 14 / Samsung Internet 26 / phone @ 412×915. Session: guest hw03.t3.1785950037697@mailinator.com",
+      "screenshot": "submission/evidence/t3/D1/C3.png",
+      "finalUrl": "https://prod-dev.ems-fitus.cloud/complaints/new",
+      "title": "Gửi yêu cầu hỗ trợ | HCMUS EMS",
+      "reached": true,
+      "overflow": {
+        "scrollWidth": 412,
+        "clientWidth": 412,
+        "overflow": false
+      }
+    },
+    {
+      "cellId": "D1-C4",
+      "screen": "D1",
+      "cell": "C4",
+      "result": "Pass",
+      "notes": "local browser + device-metrics emulation (not a real device). Emulated Windows 11 / Edge 128 / tablet @ 1024×768. Session: guest hw03.t3.1785950037697@mailinator.com",
+      "screenshot": "submission/evidence/t3/D1/C4.png",
+      "finalUrl": "https://prod-dev.ems-fitus.cloud/complaints/new",
+      "title": "Gửi yêu cầu hỗ trợ | HCMUS EMS",
+      "reached": true,
+      "overflow": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "overflow": false
+      }
+    },
+    {
+      "cellId": "D1-C5",
+      "screen": "D1",
+      "cell": "C5",
+      "result": "Pass",
+      "notes": "local browser + device-metrics emulation (not a real device). Emulated macOS Sonoma 14 / Firefox 129 / tablet @ 820×1180. Session: guest hw03.t3.1785950037697@mailinator.com",
+      "screenshot": "submission/evidence/t3/D1/C5.png",
+      "finalUrl": "https://prod-dev.ems-fitus.cloud/complaints/new",
+      "title": "Gửi yêu cầu hỗ trợ | HCMUS EMS",
+      "reached": true,
+      "overflow": {
+        "scrollWidth": 820,
+        "clientWidth": 820,
+        "overflow": false
+      }
+    },
+    {
+      "cellId": "D2-C1",
+      "screen": "D2",
+      "cell": "C1",
+      "result": "Pass",
+      "notes": "local browser + device-metrics emulation (not a real device). Emulated Windows 11 / Chrome 128 / desktop @ 1440×900. Session: guest hw03.t3.1785950037697@mailinator.com",
+      "screenshot": "submission/evidence/t3/D2/C1.png",
+      "finalUrl": "https://prod-dev.ems-fitus.cloud/complaints",
+      "title": "Yêu cầu hỗ trợ | HCMUS EMS",
+      "reached": true,
+      "overflow": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "cellId": "D2-C2",
+      "screen": "D2",
+      "cell": "C2",
+      "result": "Pass",
+      "notes": "local browser + device-metrics emulation (not a real device). Emulated macOS Sonoma 14 / Safari 17 / desktop @ 1440×900. Session: guest hw03.t3.1785950037697@mailinator.com",
+      "screenshot": "submission/evidence/t3/D2/C2.png",
+      "finalUrl": "https://prod-dev.ems-fitus.cloud/complaints",
+      "title": "Yêu cầu hỗ trợ | HCMUS EMS",
+      "reached": true,
+      "overflow": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflow": false
+      }
+    },
+    {
+      "cellId": "D2-C3",
+      "screen": "D2",
+      "cell": "C3",
+      "result": "Pass",
+      "notes": "local browser + device-metrics emulation (not a real device). Emulated Android 14 / Samsung Internet 26 / phone @ 412×915. Session: guest hw03.t3.1785950037697@mailinator.com",
+      "screenshot": "submission/evidence/t3/D2/C3.png",
+      "finalUrl": "https://prod-dev.ems-fitus.cloud/complaints",
+      "title": "Yêu cầu hỗ trợ | HCMUS EMS",
+      "reached": true,
+      "overflow": {
+        "scrollWidth": 412,
+        "clientWidth": 412,
+        "overflow": false
+      }
+    },
+    {
+      "cellId": "D2-C4",
+      "screen": "D2",
+      "cell": "C4",
+      "result": "Pass",
+      "notes": "local browser + device-metrics emulation (not a real device). Emulated Windows 11 / Edge 128 / tablet @ 1024×768. Session: guest hw03.t3.1785950037697@mailinator.com",
+      "screenshot": "submission/evidence/t3/D2/C4.png",
+      "finalUrl": "https://prod-dev.ems-fitus.cloud/complaints",
+      "title": "Yêu cầu hỗ trợ | HCMUS EMS",
+      "reached": true,
+      "overflow": {
+        "scrollWidth": 1024,
+        "clientWidth": 1024,
+        "overflow": false
+      }
+    },
+    {
+      "cellId": "D2-C5",
+      "screen": "D2",
+      "cell": "C5",
+      "result": "Pass",
+      "notes": "local browser + device-metrics emulation (not a real device). Emulated macOS Sonoma 14 / Firefox 129 / tablet @ 820×1180. Session: guest hw03.t3.1785950037697@mailinator.com",
+      "screenshot": "submission/evidence/t3/D2/C5.png",
+      "finalUrl": "https://prod-dev.ems-fitus.cloud/complaints",
+      "title": "Yêu cầu hỗ trợ | HCMUS EMS",
+      "reached": true,
+      "overflow": {
+        "scrollWidth": 820,
+        "clientWidth": 820,
+        "overflow": false
+      }
+    }
+  ],
+  "browserstack": "not_used"
+}

@@ -1,0 +1,7 @@
+# Cross-platform findings rows (Task 8) — for merge into Findings Log
+
+Do **not** edit `submission/Bug_Usability_Findings_Log.md` from this task; controller merges these rows.
+
+| ID | Type | Screen(s) | Checklist ID(s) | Severity | Title | Steps to reproduce | Expected | Actual | Suggested fix | Screenshot(s) | Heuristic ref | Google Form timestamp |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| XP-001 | Bug | D3 | IA01-09 | Major | Admin Support list overflows horizontally on phone-width viewport | 1. Sign in as admin (`admin@gmail.com`). 2. Open https://prod-dev.ems-fitus.cloud/dashboard/admin/complaints. 3. View at phone width ~412px (Android phone UA / device-metrics). | Admin list adapts to narrow viewports without horizontal page scroll; primary actions and filters remain fully visible. | `documentElement.scrollWidth` (516) exceeds `clientWidth` (412). Expanded admin sidebar plus main column cause horizontal overflow; Export Excel and filter controls are clipped. Observed under local Chrome CDP phone emulation (Android 14 · Samsung Internet UA · 412×915) — not a real device. | Collapse/drawer the admin sidebar by default below tablet breakpoints; stack status cards and filters to a single column; ensure Export and search fit within 100vw (`overflow-x: hidden` on shell is not enough — fix layout). | `submission/evidence/t3/D3/C3.png` | Nielsen H8 (Aesthetic and minimalist design) / responsive layout | N/A — form waived by lecturer |
